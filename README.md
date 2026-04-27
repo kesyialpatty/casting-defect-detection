@@ -75,7 +75,7 @@ production deployment.
   - 26 False Positives — OK products flagged as defective
   - 
 ![Confusion Matrix](images/confusion_matrix.png)
-![Loss & Accuracy](images/loss_accuracy.png)
+![Loss & Accuracy](images/loss_accuracy.PNG)
 ---
 
 ## 🚀 Demo & Deployment
