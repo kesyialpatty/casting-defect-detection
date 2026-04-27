@@ -81,8 +81,8 @@ production deployment.
 
 ### Model 2 — MobileNetV2 (Improvement)
 
-![Loss Accuracy Model 2](images/loss_accuracy_model2.png)
-![Confusion Matrix Model 2](images/confusion_matrix_model2.PNG)
+![Loss Accuracy Model 2](images/loss_accuracy_model2.PNG)
+![Confusion Matrix Model 2](images/confusion_matrix_model2.png)
 
 - Defective detected: 446/453 (98.5%)
 - OK detected: 236/262 (90.1%)
