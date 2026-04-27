@@ -96,7 +96,8 @@ production deployment.
 
 **Live Demo:** [🤗 Hugging Face Spaces](https://huggingface.co/spaces/kesyialp/defect-casting-detection)
 
-![App Preview](images/app_screenshot.png)
+![App Preview](images/app_screenshot1.png)
+![App Preview with prediction](images/app_screenshot2.png)
 
 ---
 
