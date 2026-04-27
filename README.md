@@ -99,7 +99,7 @@ production deployment.
 ![App Preview](images/app_screenshot1.png)
 ![App Preview with prediction](images/app_screenshot2.png)
 
-Note: To try the model in hf, you can use the image from the kaggle dataset that has been placed above (https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product) or search on Google with the keyword "submersible pump impeller" but adjust the photo with angles etc. so that it is similar to the shape in the dataset so that the model can be recognized.
+Note: To try the model in hf, you can use the image from the kaggle dataset that has been placed above (https://www.kaggle.com/datasets/ravirajsinh45/real-life-industrial-dataset-of-casting-product) or search on Google with the keyword "submersible pump impeller" but adjust the photo with an angle/view/type that matches the dataset. So that it is similar to the shape in the dataset so that the model can recognize it.
 ---
 
 ## Tech Stack
