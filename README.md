@@ -58,31 +58,46 @@ production deployment.
 
 ## Results & Model Comparison
 
-### Version 1 — Model Comparison
-
 | Metric | Model 1 (CNN Scratch) | Model 2 (MobileNetV2) |
 |--------|-----------------------|-----------------------|
 | Test Accuracy | **95.66%** | 95.38% |
 | Training Speed | Slower | **Faster** ✅ |
 | Deployable to HF | ❌ | ✅ |
 
-### Detailed Analysis (Version 1)
-
-- **Detection Balance:** 98.5% defective products detected (446/453) 
-  and 90.1% OK products detected (236/262)
-- **Error Analysis:** Only 33/715 images (4.62%) misclassified
-  - 7 False Negatives — defective products passed as OK  
-  - 26 False Positives — OK products flagged as defective
-  - 
-![Confusion Matrix](images/confusion_matrix.png)
-![Loss & Accuracy](images/loss_accuracy.PNG)
 ---
 
-## 🚀 Demo & Deployment
+### Model 1 — CNN Scratch
+
+![Loss Accuracy Model 1](images/loss_accuracy_model1.png)
+![Confusion Matrix Model 1](images/confusion_matrix_model1.png)
+
+- Defective detected: 424/453 (93.6%)
+- OK detected: 260/262 (99.2%)
+- False Negatives: 29 — defective products passed as OK
+- False Positives: 2 — OK products flagged as defective
+- Total misclassified: 31/715 (4.34%)
+
+---
+
+### Model 2 — MobileNetV2 (Improvement)
+
+![Loss Accuracy Model 2](images/loss_accuracy_model2.png)
+![Confusion Matrix Model 2](images/confusion_matrix_model2.png)
+
+- Defective detected: 446/453 (98.5%)
+- OK detected: 236/262 (90.1%)
+- False Negatives: 7 — defective products passed as OK
+- False Positives: 26 — OK products flagged as defective
+- Total misclassified: 33/715 (4.62%)
+
+---
+
+## Demo & Deployment
 
 **Live Demo:** [🤗 Hugging Face Spaces](https://huggingface.co/spaces/kesyialp/defect-casting-detection)
 
 ![App Preview](images/app_screenshot.png)
+
 ---
 
 ## Tech Stack
